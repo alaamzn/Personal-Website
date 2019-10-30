@@ -70,7 +70,7 @@ textarea{
 @media (min-width: 320px) and (max-width: 480px) {
       .form-wrapper{
             width: 88%;
-            height: 21.25rem;
+            height: 60%;
             margin: 110px auto;
             padding: 7px 7px;
             line-height: 1;
@@ -78,13 +78,13 @@ textarea{
       }    
       input{
             padding-right: 5px;
-            width: 150px;
+            width: 92%;
       }
       textarea{
             margin-bottom: 20px;
             padding-top: 20px;
             padding-right: 5px;
-            width: 150px;
+            width: 92%;
       }
       .title{
             color: #39375b;
