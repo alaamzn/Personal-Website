@@ -11,7 +11,7 @@ hr{
       border-bottom: none;
       width: 4%;
       margin: 100px auto;
-      
+
 }
 h1{
       color: #66BFBF;
@@ -82,14 +82,14 @@ p{
 }
 .top-cloud{
    position: absolute;
-   right: 15rem;
-   top: 11.25rem;
+   right: 240px;
+   top: 180px;
 }
 
 .bottom-cloud{
       position: absolute;
-      left: 16.25rem;
-      top: 18rem;
+      left: 260px;
+      top: 288px;
 }
 
 .my-image{
