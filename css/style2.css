@@ -69,8 +69,8 @@ textarea{
 
 @media (min-width: 320px) and (max-width: 480px) {
       .form-wrapper{
-            width: 15rem;
-            height: 26.25rem;
+            width: 88%;
+            height: 21.25rem;
             margin: 110px auto;
             padding: 7px 7px;
             line-height: 1;
