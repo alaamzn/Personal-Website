@@ -54,6 +54,7 @@ textarea{
       padding: 5px 10px 5px 10px;
       text-decoration: none;
       height: 40px;
+
     }
 
     .btn:hover {
@@ -69,7 +70,7 @@ textarea{
 
 @media (min-width: 375px) and (max-width: 480px) {
       .form-wrapper{
-            width: 85%;
+            width: 290px;
             height: 340px;
             margin: 110px auto;
             padding: 7px 7px;
@@ -78,13 +79,13 @@ textarea{
       }    
       input{
             padding-right: 5px;
-            width: 95%;
+            width: 190px;
       }
       textarea{
             margin-bottom: 20px;
             padding-top: 20px;
             padding-right: 5px;
-            width: 95%;
+            width: 190px;
       }
       .title{
             color: #39375b;
@@ -93,25 +94,25 @@ textarea{
       }
 }
 
-/*
-@media (max-width: 320px){
+
+@media (width: 320px){
       .form-wrapper{
-            width: 84%;
-            height: 80%;
+            width: 290px;
+            height: 380px;
             margin: 110px auto;
             padding: 5px 5px;
             line-height: 1;
-            font-size: 12px;
+            font-size: 8px;
       }    
       input{
+            padding-left: 10px;
             padding-right: 0px;
-            width: 90%;
+            width: 190px;
       }
       textarea{
             margin-bottom: 25px;
             padding-top: 20px;
             padding-right: 5px;
-            width: 87%;
+            width: 192px;
       }
 }
-*/
