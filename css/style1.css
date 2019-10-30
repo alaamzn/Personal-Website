@@ -67,6 +67,7 @@ p{
       height: 608px;
       padding: 100px 0 50px 0;
       background-color: #EAF6F6;
+      position: relative;
 }
 
 .middle-container{
@@ -80,6 +81,17 @@ p{
       background-color: #66BFBF;
 }
 
+.top-cloud{
+      position: absolute;
+      right: 18rem;
+      top: 23rem;
+}
+
+.bottom-cloud{
+      position: absolute;
+      left: 16.25rem;
+      top: 23rem;   
+}
 
 .my-image{
       width: 12.5%;
