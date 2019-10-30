@@ -67,10 +67,10 @@ textarea{
     }
 
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 375px) and (max-width: 480px) {
       .form-wrapper{
-            width: 88%;
-            height: 60%;
+            width: 85%;
+            height: 340px;
             margin: 110px auto;
             padding: 7px 7px;
             line-height: 1;
@@ -78,17 +78,38 @@ textarea{
       }    
       input{
             padding-right: 5px;
-            width: 92%;
+            width: 95%;
       }
       textarea{
             margin-bottom: 20px;
             padding-top: 20px;
             padding-right: 5px;
-            width: 92%;
+            width: 95%;
       }
       .title{
             color: #39375b;
             text-align: center;
             font-size: 20px;
+      }
+}
+
+@media (max-width: 320px){
+      .form-wrapper{
+            width: 84%;
+            height: 80%;
+            margin: 110px auto;
+            padding: 5px 5px;
+            line-height: 1;
+            font-size: 12px;
+      }    
+      input{
+            padding-right: 0px;
+            width: 90%;
+      }
+      textarea{
+            margin-bottom: 25px;
+            padding-top: 20px;
+            padding-right: 5px;
+            width: 87%;
       }
 }
