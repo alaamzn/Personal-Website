@@ -95,24 +95,3 @@ textarea{
 }
 
 
-@media (width: 320px){
-      .form-wrapper{
-            width: 290px;
-            height: 380px;
-            margin: 110px auto;
-            padding: 5px 5px;
-            line-height: 1;
-            font-size: 8px;
-      }    
-      input{
-            padding-left: 10px;
-            padding-right: 0px;
-            width: 190px;
-      }
-      textarea{
-            margin-bottom: 25px;
-            padding-top: 20px;
-            padding-right: 5px;
-            width: 192px;
-      }
-}
