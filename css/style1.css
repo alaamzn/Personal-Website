@@ -159,4 +159,72 @@ p{
 }    
 
 
+@media only screen and (max-width: 480px) {
+      body{
+            width: 375px;
+      }
+      .top-container{
+            width: 598px;
+            padding: 100px 0 50px 0;
+            background-color: #EAF6F6;
+            position: relative;
+      }
+      .my-image{
+            width: 250px;
+            height: 250px;
+      
+      }
+      h2{
+            font-size: 50px;
+      }
+      .intro{
+            width: 70%;
+            margin: 0 auto;
+      }
+      .bottom-container{
+            padding: 50px 0px 15px;
+      }
+      p{
+            line-height: 2;
+            font-size: 20px;
+            width: 85%;
+            margin: 0 auto;
+      }
+      .skill-row{
+            width: 70%;
+            margin: 50px auto 10px;
+            text-align: center;
+      }
+      .code-image{    
+            width: 45%;
+            float: none;
+            margin: 0 auto;
+      }
+
+      h3{
+            font-size: 28px;
+            font-family: 'Montserrat', sans-serif;
+            color: #11999E;
+      }  
+
+      /*
+      h3{
+            font-size: 45px;
+            text-align: center;
+      }
+      */
+      .chatbot-image{    
+            width: 50%;
+            float: none;
+            margin: 0 auto;
+      }
+      hr{
+            border: dotted #EAF6F6 8px;
+            border-bottom: none;
+            width: 30%;
+            margin: 100px auto;
+      }
+      
+}
+
 
