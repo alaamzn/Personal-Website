@@ -67,11 +67,11 @@ p{
 }
 
 .nav-bar{
-      width: 250px;
+      width: 500px;
       height: 30px;
       position: absolute;
-      top: 75px;
-      right: 75px;
+      top: 30px;
+      right: 10px;
       display: inline-block;
       text-decoration: powderblue;
       font-family: 'Montserrat', sans-serif;
@@ -121,12 +121,27 @@ p{
       margin-left: 30px;
 }
 
-
+.skills{
+      margin-bottom: 200px;
+}
 .skill-row{
       width: 50%;
       margin: 50px auto 100px;
       text-align: left;
 }
+
+.work{
+      padding: 200px auto;
+}
+
+.project-image{
+      padding-top: 80px;
+      display: inline-block;
+      width: 300px;
+      height: 170px;
+      padding-right: 40px;
+}
+
 
 .footer-link{
       color: #11999E;
