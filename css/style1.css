@@ -66,6 +66,18 @@ p{
       position: relative;
 }
 
+.nav-bar{
+      width: 250px;
+      height: 30px;
+      position: absolute;
+      top: 75px;
+      right: 75px;
+      display: inline-block;
+      text-decoration: powderblue;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      text-transform: uppercase;
+}
 .middle-container{
       margin: 50px auto;
 }
