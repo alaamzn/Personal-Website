@@ -76,15 +76,15 @@ textarea{
             line-height: 1;
             font-size: 8px;
       }    
-      table{
-            padding-right: 0px;
-      }
+      
       input{
-            margin-left: 5%;    
+            margin-left: 5%; 
+            margin-right: 5px;   
             width: 170px;
       }
       textarea{
             margin-left: 5%;
+            margin-right: 5px;
             width: 170px;
       }
       .title{
