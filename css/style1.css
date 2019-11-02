@@ -1,5 +1,6 @@
 body{
-      color: #40514E;
+      background: #d9eeec;
+      color: grey;
       margin: 0;
       text-align: center;
       font-family: 'Merriweather', serif;  
@@ -101,12 +102,7 @@ p{
       top: 23rem;   
 }
 
-.my-image{
-      width: 12.5%;
-      height: 12.5%;
-      border-radius: 50% 50%;
 
-}
 .code-image{
       width: 25%;
       border-radius: 50% 50%;
@@ -195,11 +191,6 @@ p{
             padding: 100px 0 50px 0;
             background-color: #EAF6F6;
             position: relative;
-      }
-      .my-image{
-            width: 250px;
-            height: 250px;
-      
       }
       h2{
             font-size: 50px;
