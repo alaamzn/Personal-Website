@@ -73,19 +73,19 @@ textarea{
             height: 85%;
             margin: 110px auto;
             padding: 7px 7px;
-            line-height: 1.5;
-            font-size: 12px;
+            line-height: 1;
+            font-size: 8px;
       }    
+      table{
+            padding-right: 0px;
+      }
       input{
-         
-            padding-right: 5px;
-            width: 190px;
+            margin-left: 5%;    
+            width: 170px;
       }
       textarea{
-            margin-bottom: 20px;
-            padding-top: 20px;
-            padding-right: 5px;
-            width: 190px;
+            margin-left: 5%;
+            width: 170px;
       }
       .title{
             color: #39375b;
@@ -95,10 +95,7 @@ textarea{
       .btn{
             margin-left: 25px;
       }
-      .label{
-            padding-right: 0;
-            padding-left: 0;
-      }
+      
 }
 
 
