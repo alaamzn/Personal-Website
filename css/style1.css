@@ -1,5 +1,5 @@
 body{
-      background: white;
+      background: #eafbea;
       color: black;
       margin: 0;
       text-align: center;
@@ -61,24 +61,28 @@ p{
 }
 
 .top-container{
-      height: 608px;
+     height: 608px;
       padding: 100px 0 50px 0;
-      background-color:#EAF6F6;
+      margin-bottom: 200px;
+      background-color: #EAF6F6;
       position: relative;
 }
 
+
 .nav-bar{
-      width: 500px;
+      width:500px;
       height: 30px;
       position: absolute;
       top: 30px;
       right: 10px;
       display: inline-block;
-      text-decoration: powderblue;
+      text-decoration: rgb(130, 138, 139);
       font-family: 'Montserrat', sans-serif;
       font-size: 18px;
       text-transform: uppercase;
 }
+
+
 .middle-container{
       margin: 50px auto;
 }
@@ -93,13 +97,13 @@ p{
 .top-cloud{
       position: absolute;
       right: 18rem;
-      top: 23rem;
+      top: 24rem;
 }
 
 .bottom-cloud{
       position: absolute;
       left: 16.25rem;
-      top: 23rem;   
+      top: 24rem;   
 }
 
 
@@ -123,16 +127,18 @@ p{
 .skill-row{
       width: 50%;
       margin: 50px auto 100px;
+      padding-top: 50px;
       text-align: left;
 }
 
 .work{
       padding: 200px auto;
+      display: inline-block;
 }
 
 .project-image{
       padding-top: 80px;
-      display: inline-block;
+      
       width: 300px;
       height: 170px;
       padding-right: 40px;
@@ -241,6 +247,14 @@ p{
             border-bottom: none;
             width: 30%;
             margin: 100px auto;
+      }
+      
+      .top-cloud{
+           display: none;      
+      }
+      
+      .bottom-cloud{
+            display: none;  
       }
       
 }
