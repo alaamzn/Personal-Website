@@ -277,5 +277,8 @@ p {
       .stack{
             margin: 10px auto;
       }
+      .heading{
+            font-size: 23px;
+      }
 
 }
