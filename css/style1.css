@@ -1,38 +1,38 @@
-body{
+body {
       background: #eafbea;
       color: black;
       margin: 0;
       text-align: center;
-      font-family: 'Merriweather', serif;  
+      font-family: 'Merriweather', serif;
 }
 
-hr{
+hr {
       border: dotted #EAF6F6 6px;
       border-bottom: none;
       width: 4%;
       margin: 100px auto;
 }
 
-h1{
+h1 {
       color: #66BFBF;
       margin: 50px auto 0 auto;
       font-size: 5.625rem;
       font-family: 'Sacramento', cursive;
 }
- 
-h2{
+
+h2 {
       font-size: 40px;
       color: #66BFBF;
       font-family: 'Montserrat', sans-serif;
 }
 
-h3{
+h3 {
       font-size: 28px;
       font-family: 'Montserrat', sans-serif;
       color: #11999E;
 }
 
-h4{
+h4 {
       font-family: 'Montserrat', sans-serif;
       font-size: 2.5rem;
       margin-top: 15px;
@@ -40,28 +40,33 @@ h4{
       font-weight: normal;
 }
 
-.intro{
-      width: 30%;
+.intro {
+      width: 60%;
       margin: 0 auto;
 }
 
-a{
+.stack{
+   margin-left: 200px;
+}
+
+a {
       color: #11999E;
       text-decoration: none;
       padding: 0 5px;
       font-family: 'Montserrat', sans-serif;
 }
-a:hover{
+
+a:hover {
       color: grey;
 }
 
 
-p{
+p {
       line-height: 2;
 }
 
-.top-container{
-     height: 608px;
+.top-container {
+      height: 608px;
       padding: 100px 0 50px 0;
       margin-bottom: 200px;
       background-color: #EAF6F6;
@@ -69,8 +74,8 @@ p{
 }
 
 
-.nav-bar{
-      width:500px;
+.nav-bar {
+      width: 500px;
       height: 30px;
       position: absolute;
       top: 30px;
@@ -83,74 +88,77 @@ p{
 }
 
 
-.middle-container{
+.middle-container {
       margin: 50px auto;
 }
 
-.bottom-container{
+.bottom-container {
       padding: 50px 10px 15px;
       margin-top: 80px;
       margin-bottom: 0px;
       background-color: #66BFBF;
 }
 
-.top-cloud{
+.top-cloud {
       position: absolute;
       right: 18rem;
       top: 24rem;
+      display: none;
 }
 
-.bottom-cloud{
+.bottom-cloud {
       position: absolute;
       left: 16.25rem;
-      top: 24rem;   
+      top: 24rem;
+      display: none;
 }
 
 
-.code-image{
+.code-image {
       width: 25%;
       border-radius: 50% 50%;
       float: left;
-      margin-right: 30px;
+      margin:40px 30px 0 0 ;
 }
 
-.chatbot-image{
+.chatbot-image {
       width: 25%;
       border-radius: 50% 50%;
       float: right;
       margin-left: 30px;
 }
 
-.skills{
+.skills {
       margin-bottom: 200px;
 }
-.skill-row{
+
+.skill-row {
       width: 50%;
       margin: 50px auto 100px;
       padding-top: 50px;
       text-align: left;
 }
 
-.work{
+.work {
       padding: 200px auto;
       display: inline-block;
 }
 
-.project-image{
+.project-image {
       padding-top: 80px;
-      
+
       width: 300px;
       height: 170px;
       padding-right: 40px;
 }
 
 
-.footer-link{
+.footer-link {
       color: #11999E;
       margin: 30px auto;
 }
 
-.copyright{
+.copyright {
       font-size: 0.75rem;
       padding-top: 40px;
       color: #EAF6F6;
@@ -171,9 +179,9 @@ p{
       font-family: 'Montserrat', sans-serif;
       padding: 10px 20px 10px 20px;
       text-decoration: none;
-    }
+}
 
-    .btn:hover {
+.btn:hover {
       background: #30e3cb;
       background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
       background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -181,55 +189,64 @@ p{
       background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
       background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
       text-decoration: none;
-    }
+}
 
-.my-email{
+.my-email {
       margin-bottom: 60px;
-}    
+}
 
 
 @media only screen and (max-width: 480px) {
-      body{
+      body {
             width: 375px;
       }
-      .top-container{
+
+      .top-container {
             width: 598px;
             padding: 100px 0 50px 0;
             background-color: #EAF6F6;
             position: relative;
       }
-      h2{
+
+      h2 {
             font-size: 50px;
       }
-      .intro{
+
+      .intro {
             width: 70%;
             margin: 0 auto;
       }
-      .bottom-container{
+      
+
+     
+      .bottom-container {
             padding: 50px 0px 15px;
       }
-      p{
+
+      p {
             line-height: 2;
             font-size: 20px;
             width: 85%;
             margin: 0 auto;
       }
-      .skill-row{
+
+      .skill-row {
             width: 70%;
             margin: 50px auto 10px;
             text-align: center;
       }
-      .code-image{    
+
+      .code-image {
             width: 45%;
             float: none;
             margin: 0 auto;
       }
 
-      h3{
+      h3 {
             font-size: 28px;
             font-family: 'Montserrat', sans-serif;
             color: #11999E;
-      }  
+      }
 
       /*
       h3{
@@ -237,26 +254,28 @@ p{
             text-align: center;
       }
       */
-      .chatbot-image{    
+      .chatbot-image {
             width: 50%;
             float: none;
             margin: 0 auto;
       }
-      hr{
+
+      hr {
             border: dotted #EAF6F6 8px;
             border-bottom: none;
             width: 30%;
             margin: 100px auto;
       }
-      
-      .top-cloud{
-           display: none;      
+
+      .top-cloud {
+            display: none;
       }
-      
-      .bottom-cloud{
-            display: none;  
+
+      .bottom-cloud {
+            display: none;
       }
-      
+      .stack{
+            margin: 10px auto;
+      }
+
 }
-
-
