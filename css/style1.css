@@ -112,12 +112,13 @@ nav{
       background-color: cadetblue;
       position: fixed; 
       top: 0;  
-      padding: 20px 100px 20px 20px !important; 
+      padding: 20px 100px 20px 20px !important;
 }
 
 .middle-container {
       margin: 300px auto 0;
 }
+
 
 .bottom-container {
       padding: 50px 10px 15px;
@@ -232,13 +233,19 @@ nav{
 
 
 @media only screen and (max-width: 480px) {
+      /*
       body {
             width: 375px;
       }
+      */
+      
+      nav{
 
+            padding: 20px 10px 20px 20px !important;
+      }
       .top-container {
             width: 598px;
-            padding: 100px 0 50px 0;
+            padding:0 0 100px 0;
             background-color: #EAF6F6;
             position: relative;
       }
