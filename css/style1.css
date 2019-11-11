@@ -82,16 +82,19 @@ p {
 }
 
 .top-container {
-      height: 608px;
-      padding: 100px 0 200px 0;
+      height: 708px;
+      padding: 0px 0 400px 0;
       margin-bottom: 200px;
       background-color: #EAF6F6;
       position: relative;
 }
-
+.bottom-mountain{
+      display: none;
+}
 .profile{
       padding-top: 50px;
 }
+/*
 .nav-bar {
       width: 500px;
       height: 30px;
@@ -104,10 +107,16 @@ p {
       font-size: 18px;
       text-transform: uppercase;
 }
-
+*/
+nav{
+      background-color: cadetblue;
+      position: fixed; 
+      top: 0;  
+      padding: 20px 100px 20px 20px !important; 
+}
 
 .middle-container {
-      margin: 0px auto;
+      margin: 300px auto 0;
 }
 
 .bottom-container {
