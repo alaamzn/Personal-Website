@@ -15,7 +15,7 @@ hr {
 
 h1 {
       color: #66BFBF;
-      margin: 50px auto 0 auto;
+      margin: 200px auto 0 auto;
       font-size: 5.625rem;
       font-family: 'Sacramento', cursive;
 }
@@ -45,10 +45,26 @@ h4 {
       margin: 0 auto;
 }
 
-.stack{
-   margin-left: 200px;
+
+
+/* Important words in the dscription paragraph */
+
+.important-word{
+      background: cadetblue;
+      color: white;
+      padding: 4px;
+      font-size: 18px;
+      font-style: italic;
 }
 
+
+.stack{
+      text-transform: uppercase;
+      color: #66BFBF;
+      font-size: 14px;
+      text-indent: black;
+      margin-left: 200px;
+}
 a {
       color: #11999E;
       text-decoration: none;
@@ -67,13 +83,15 @@ p {
 
 .top-container {
       height: 608px;
-      padding: 100px 0 50px 0;
+      padding: 100px 0 200px 0;
       margin-bottom: 200px;
       background-color: #EAF6F6;
       position: relative;
 }
 
-
+.profile{
+      padding-top: 50px;
+}
 .nav-bar {
       width: 500px;
       height: 30px;
@@ -89,7 +107,7 @@ p {
 
 
 .middle-container {
-      margin: 50px auto;
+      margin: 0px auto;
 }
 
 .bottom-container {
@@ -98,6 +116,8 @@ p {
       margin-bottom: 0px;
       background-color: #66BFBF;
 }
+
+
 
 .top-cloud {
       position: absolute;
@@ -137,6 +157,12 @@ p {
       margin: 50px auto 100px;
       padding-top: 50px;
       text-align: left;
+}
+
+.heading{
+      font-size: 16px;
+      line-height: 2;
+      
 }
 
 .work {
@@ -217,7 +243,9 @@ p {
             margin: 0 auto;
       }
       
-
+      .middle-container{
+            margin-top: 250px;
+      }
      
       .bottom-container {
             padding: 50px 0px 15px;
@@ -274,11 +302,29 @@ p {
       .bottom-cloud {
             display: none;
       }
+
+      .bottom-mountain{
+            
+            display: none;
+      }
       .stack{
             margin: 10px auto;
       }
       .heading{
             font-size: 23px;
+            margin: 0 auto;
       }
 
+}
+
+@media only screen and (min-width: 768px) and(max-width: 1024px){
+      .stack{
+            margin-left: 130px;
+            font-size: 20px;
+         }
+      .heading{
+            font-size: 16px;
+            line-height: 2;
+            margin-left: 130px !important;
+      }
 }
