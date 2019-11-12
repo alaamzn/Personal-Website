@@ -91,7 +91,7 @@ p {
 }
 
 .top-container {
-      height: 708px;
+      height: 858px;
       padding: 0px 0 400px 0;
       margin-bottom: 200px;
       background-color: #EAF6F6;
@@ -118,12 +118,16 @@ p {
 }
 */
 nav{
-      background-color: cadetblue;
+      background-color: rgb(95, 142, 179);
       position: fixed; 
       top: 0;  
       padding: 20px 100px 20px 20px !important;
 }
 
+.nav-link{
+      color: rgb(207, 199, 199) !important;
+      text-transform: uppercase;
+}
 .middle-container {
       margin: 300px auto 0;
 }
