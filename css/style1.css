@@ -40,13 +40,22 @@ h4 {
       font-weight: normal;
 }
 
-
-.download-btn{
-      margin: 110px auto 0;
-      width: 160px;
-      height: 60px;
-      border-radius: 50px !important;
-      border-top: none;
+.top-container-btn{
+      width: 300px;
+      height: 100px;
+      background: #11cdd4;
+      color: white;
+      position: relative;
+      top: 100px;
+      margin: auto 50px;
+      padding: 20px 20px;
+      border-radius: 50px;
+}
+.top-container-btn:hover{
+      text-decoration: none;
+}
+.about-btn{
+      padding: 20px 50px !important;
 }
 .intro {
       width: 60%;
@@ -91,10 +100,10 @@ p {
 }
 
 .top-container {
-      height: 858px;
+      height: 758px;
       padding: 0px 0 400px 0;
       margin-bottom: 200px;
-      background-color: #EAF6F6;
+      background: #EAF6F6;
       position: relative;
 }
 .bottom-mountain{
@@ -118,14 +127,14 @@ p {
 }
 */
 nav{
-      background-color: rgb(95, 142, 179);
+      background-color: #11cdd4;
       position: fixed; 
       top: 0;  
-      padding: 20px 100px 20px 20px !important;
+      padding: 5px 50px 5px 20px !important;
 }
 
 .nav-link{
-      color: rgb(207, 199, 199) !important;
+      color: white !important;
       text-transform: uppercase;
 }
 .middle-container {
@@ -197,7 +206,7 @@ nav{
       padding-top: 80px;
 
       width: 300px;
-      height: 170px;
+      height: 220px;
       padding-right: 40px;
 }
 
@@ -245,7 +254,7 @@ nav{
 }
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1024px) {
       /*
       body {
             width: 375px;
@@ -258,8 +267,8 @@ nav{
       }
       .top-container {
             width: 598px;
+            height: 1020px;
             padding:0 0 100px 0;
-            background-color: #EAF6F6;
             position: relative;
       }
 
@@ -272,8 +281,24 @@ nav{
             margin: 0 auto;
       }
       
+      .top-container-btn{
+            display: block;
+            width: 200px;
+            height: 100px;
+            font-size: 24px;
+            color: white;
+            position: relative;
+            top: 150px;
+            margin: 30px auto 0;
+            padding: 30px 10px;
+            
+      }
+      .about-btn{
+            padding: 30px 50px !important;
+      }
+
       .middle-container{
-            margin-top: 250px;
+            margin-top: 300px;
       }
      
       .bottom-container {
@@ -289,14 +314,14 @@ nav{
 
       .skill-row {
             width: 70%;
-            margin: 50px auto 10px;
+            margin: 50px auto 0;
             text-align: center;
       }
 
       .code-image {
             width: 45%;
             float: none;
-            margin: 0 auto;
+            margin: 35px auto;
       }
 
       h3 {
@@ -314,7 +339,7 @@ nav{
       .chatbot-image {
             width: 50%;
             float: none;
-            margin: 0 auto;
+            margin: 30px auto;
       }
 
       hr {
