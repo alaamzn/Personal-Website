@@ -43,7 +43,7 @@ h4 {
 .top-container-btn{
       width: 300px;
       height: 100px;
-      background: #11cdd4;
+      background: #010038;
       color: white;
       position: relative;
       top: 100px;
@@ -65,7 +65,7 @@ h4 {
 
 
 
-/* Important words in the dscription paragraph */
+/* Important words in the description paragraph */
 
 .important-word{
       background: cadetblue;
@@ -103,7 +103,7 @@ p {
       height: 758px;
       padding: 0px 0 400px 0;
       margin-bottom: 200px;
-      background: #EAF6F6;
+      
       position: relative;
 }
 .bottom-mountain{
@@ -127,10 +127,11 @@ p {
 }
 */
 nav{
-      background-color: #11cdd4;
+      background-color: #64ccda;
       position: fixed; 
       top: 0;  
-      padding: 5px 50px 5px 20px !important;
+      font-size: 1.2rem;
+      padding: 18px 50px 18px 20px !important;
 }
 
 .nav-link{
@@ -146,7 +147,7 @@ nav{
       padding: 50px 10px 15px;
       margin-top: 80px;
       margin-bottom: 0px;
-      background-color: #66BFBF;
+      
 }
 
 
@@ -212,14 +213,16 @@ nav{
 
 
 .footer-link {
-      color: #11999E;
+      
       margin: 30px auto;
 }
+
+
 
 .copyright {
       font-size: 0.75rem;
       padding-top: 40px;
-      color: #EAF6F6;
+      color: black;
 }
 
 .btn {
