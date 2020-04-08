@@ -214,6 +214,13 @@ nav{
       padding-right: 40px;
 }
 
+.project-video{
+      
+      position: relative;
+      top:120px;
+      margin-right: 40px;
+      margin-left: 40px;
+}
 
 .footer-link {
       
@@ -374,7 +381,12 @@ nav{
             font-size: 23px;
             margin: 0 auto;
       }
+      .project-image {
 
+            margin-top: 100px;
+            position: relative;
+            left: 20px;
+      }
 }
 /*
 @media only screen and (min-width: 768px) and(max-width: 1024px){
