@@ -3,7 +3,12 @@ body {
       color: black;
       margin: 0;
       text-align: center;
-      font-family: 'Merriweather', serif;
+      /*font-family: 'Merriweather', serif;*/
+      /*font-family: 'Baloo Bhaina 2',
+      cursive;*/
+      font-family: 'Ubuntu',
+      sans-serif;
+
 }
 
 hr {
@@ -14,16 +19,17 @@ hr {
 }
 
 h1 {
-      color: #66BFBF;
-      margin: 200px auto 0 auto;
+      color: #222831;
+      margin: 200px auto 20px auto;
       font-size: 5.625rem;
       font-family: 'Sacramento', cursive;
 }
 
 h2 {
       font-size: 40px;
-      color: #66BFBF;
+      color: #222831;
       font-family: 'Montserrat', sans-serif;
+      margin-bottom: 30px;
 }
 
 h3 {
@@ -36,7 +42,7 @@ h4 {
       font-family: 'Montserrat', sans-serif;
       font-size: 2.5rem;
       margin-top: 15px;
-      color: #66BFBF;
+      color: #222831;
       font-weight: normal;
 }
 
@@ -127,7 +133,10 @@ p {
 }
 */
 nav{
-      background-color: #64ccda;
+      background-color:
+      
+      #222831;
+      /*#64ccda*/
       position: fixed; 
       top: 0;  
       font-size: 1.2rem;
@@ -236,7 +245,7 @@ nav{
 }
 
 .btn {
-      background: #11cdd4;
+      background: #222831;
       background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
       background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
       background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
